@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -58,7 +59,9 @@ const Services = () => {
             </div>
           </div>
           <div className="btn-box">
-            <a href="">View All</a>
+          <Link to="services" smooth={true} duration={800}>
+          View All
+        </Link>
           </div>
         </div>
       </div>

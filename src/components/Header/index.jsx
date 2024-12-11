@@ -13,17 +13,12 @@ const Header = () => {
   return (
     <header className="header_section">
       <div className="topnav">
-        {/* Logo */}
         <NavLink className="navbar-brand" to="/">
           Finexo
         </NavLink>
-
-        {/* Hamburger menu icon */}
         <div className="icon" onClick={toggleMenu}>
           {menuOpen ? <FaTimes /> : <FaBars />}
         </div>
-
-        {/* Navigation links */}
         <div className={`nav-links ${menuOpen ? "show" : ""}`}>
           <NavLink
             className="nav-link"

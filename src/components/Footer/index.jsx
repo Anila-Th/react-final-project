@@ -7,7 +7,7 @@ export default function Footer() {
     <MDBFooter className="custom-footer">
       <MDBContainer>
         <MDBRow className="justify-content-center footer-row">
-          {/* Address Column */}
+          
           <MDBCol lg="3" md="6" className="footer-column text-center">
             <h5 className="text-uppercase">Address</h5>
             <ul className="list-unstyled">
@@ -40,7 +40,7 @@ export default function Footer() {
             </div>
           </MDBCol>
 
-          {/* Info Column */}
+          
           <MDBCol lg="3" md="6" className="footer-column text-center">
             <h5 className="text-uppercase">Info</h5>
             <p>
@@ -49,7 +49,7 @@ export default function Footer() {
             </p>
           </MDBCol>
 
-          {/* Links Column */}
+        
           <MDBCol lg="3" md="6" className="footer-column text-center">
             <h5 className="text-uppercase">Links</h5>
             <ul className="list-unstyled">
@@ -81,7 +81,7 @@ export default function Footer() {
             </ul>
           </MDBCol>
 
-          {/* Subscribe Column */}
+          
           <MDBCol lg="3" md="6" className="footer-column text-center">
             <h5 className="text-uppercase">Subscribe</h5>
             <form>

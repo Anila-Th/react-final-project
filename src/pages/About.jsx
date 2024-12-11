@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 
 
 const About = () => {
@@ -24,7 +26,9 @@ const About = () => {
         <p>
           Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.
         </p>
-        <a href="/" class="btn">Read More</a>
+        <Link to="about" smooth={true} duration={800}>
+          Read More
+        </Link>
       </div>
     </div>
   </div>

@@ -16,7 +16,7 @@
   padding-left: 20px;
 }
 
-/* Logo në të majtë */
+
 .navbar-brand {
   font-size: 24px;
   font-weight: bold;
@@ -25,7 +25,7 @@
   margin-left: 10px;
 }
 
-/* Lidhjet e menusë për ekranet e mëdha */
+
 .nav-links {
   display: flex;
   justify-content: flex-end;
@@ -61,7 +61,7 @@
   margin-right: 10px;
 }
 
-/* Hamburger menu icon */
+
 .icon {
   display: none;
   font-size: 30px;
@@ -70,7 +70,7 @@
   margin-left: 10px;
 }
 
-/* Responsive për ekranet e vogla */
+
 @media screen and (max-width: 768px) {
   .nav-links {
     display: none;
